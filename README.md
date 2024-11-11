@@ -138,7 +138,7 @@ To understand how this project works, watch the demo video below, which walks th
 
 ### **Project Demo Video**
 
-[![Project Demo](https://youtu.be/Z83Y36jqufg)](https://youtu.be/Z83Y36jqufg)
+[![Project Demo](https://img.youtube.com/vi/Z83Y36jqufg/0.jpg)](https://youtu.be/Z83Y36jqufg)
 
 In this video, you'll see:
 - How to upload a PDF and process it
