@@ -4,8 +4,8 @@
 REPO_URL="https://github.com/Rahul-404/Chat_With_Multiple_PDF_Using_LangChain_And_LLMs.git"   # GitHub repo URL
 PROJECT_DIR="Chat_With_Multiple_PDF_Using_LangChain_And_LLMs"                                 # Project directory name
 DOCKER_IMAGE_NAME="gemini-app"                                                                # Docker image name
-DOCKER_CONTAINER_NAME="your-container-name"                                                   # Docker container name
-AWS_REGION="us-east-1"                                                                        # AWS region
+DOCKER_CONTAINER_NAME="gemini-app-container"                                                  # Docker container name
+AWS_REGION="ap-south-1"                                                                       # AWS region
 
 # Update system and install dependencies
 echo "Updating system packages..."
@@ -64,7 +64,7 @@ docker build -t $DOCKER_IMAGE_NAME .
 
 # Run the Docker container
 echo "Running Docker container..."
-docker run -d -p 3000:3000 --name $DOCKER_CONTAINER_NAME $DOCKER_IMAGE_NAME
+docker run -d -p 8501:8501 --name $DOCKER_CONTAINER_NAME $DOCKER_IMAGE_NAME
 
 echo "Docker container is now running. You can access your application at http://<EC2_PUBLIC_IP>:3000"
 
