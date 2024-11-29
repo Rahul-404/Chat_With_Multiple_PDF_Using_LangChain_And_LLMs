@@ -134,6 +134,7 @@ faiss_index/
 notebook/logs/
 notebook/faiss_index/
 notebook/.env
+*.pem
 
 # Spyder project settings
 .spyderproject
